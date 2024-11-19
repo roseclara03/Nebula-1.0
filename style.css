@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #007acc;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Main Page - Cards */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    color: #007acc;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.info-btn {
+    background-color: #007acc;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card-detail {
+    display: none;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.card-detail a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.card-detail a:hover {
+    text-decoration: underline;
+}
+
+/* Quiz Page */
+#quiz-container {
+    max-width: 700px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-number {
+    font-size: 1.2rem;
+    color: #007acc;
+}
+
+#question-text {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+#options-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background: #e0f7ff;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, border 0.3s;
+}
+
+.option:hover {
+    background: #bde7ff;
+}
+
+#next-button {
+    display: none;
+    background: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#retry-button {
+    display: none;
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007acc;
+    color: white;
+    margin-top: 30px;
+}

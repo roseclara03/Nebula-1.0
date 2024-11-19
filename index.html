@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebula 1.0 - Water Educational Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nebula 1.0 - Explore the World of Water!</h1>
+        <p class="subtitle">Dive Deep into the Water Cycle, the Origins of Water, its Importance, and more!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <p>Water is the essence of life! Learn everything you need to know about water, from the water cycle to its origin and importance.</p>
+            <p>Let’s explore through interactive content and fun quizzes!</p>
+        </section>
+
+        <!-- Cards Section with Detailed Info -->
+        <section class="cards-container">
+            <!-- Water Cycle Card -->
+            <div class="card" id="water-cycle" onclick="showInfo('water-cycle')">
+                <h2>Water Cycle</h2>
+                <p>Discover how water continuously moves between Earth's surface and atmosphere.</p>
+            </div>
+
+            <!-- Origin of Water Card -->
+            <div class="card" id="origin-of-water" onclick="showInfo('origin-of-water')">
+                <h2>Origin of Water</h2>
+                <p>Where did water come from? Learn about its arrival on Earth.</p>
+            </div>
+
+            <!-- Importance of Water Card -->
+            <div class="card" id="importance-of-water" onclick="showInfo('importance-of-water')">
+                <h2>Importance of Water</h2>
+                <p>Explore why water is crucial for life and ecosystems.</p>
+            </div>
+
+            <!-- Water Conservation Card -->
+            <div class="card" id="water-conservation" onclick="showInfo('water-conservation')">
+                <h2>Water Conservation</h2>
+                <p>Learn why and how we should conserve water for the future.</p>
+            </div>
+        </section>
+
+        <!-- Information Section -->
+        <section class="detail-section" id="detail-section">
+            <div id="detail-content">
+                <!-- Dynamic Content will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section class="quiz-container">
+            <h2>Test Your Knowledge!</h2>
+            <p>How well do you know the water cycle and the origins of water? Take our quiz and find out!</p>
+            <a href="quiz.html" class="quiz-btn">Start Quiz</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nebula 1.0 | Created to Educate Kids About Water</p>
+    </footer>
+
+    <script src="index2.js"></script>
+</body>
+</html>

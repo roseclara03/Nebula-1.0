@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quiz - Nebula 1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Water Knowledge Quiz</h1>
+        <p>Test your understanding of water, its origins, and its importance!</p>
+    </header>
+
+    <main>
+        <section id="question-container">
+            <h2 id="question-text"></h2>
+            <div id="options"></div>
+        </section>
+
+        <section class="quiz-result" id="quiz-result">
+            <h2>Thank you for completing the quiz!</h2>
+            <p>Your score is: <span id="score"></span></p>
+            <button onclick="retryQuiz()">Try Again</button>
+        </section>
+    </main>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
